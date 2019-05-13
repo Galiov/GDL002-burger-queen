@@ -1,0 +1,12 @@
+.Item {
+	background: grey;
+	color: white;
+	padding: 12px;
+	width: 15%;
+	margin: 10px;
+}
+
+.Items-aling{
+	text-align: center;
+	float: left;
+}
