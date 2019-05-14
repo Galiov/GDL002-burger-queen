@@ -1,11 +1,37 @@
-import React from 'react';
-import './Welcome.css'
+import React, {Component} from 'react';
+import './Welcome.css';
 
 
-const InputName = () => {
-	return (
-		<input id={'name'} className="name" placeholder={'ingresa tu nombre'}></input>
-		);
-}
+class GetName extends Component {
+	constructor(props){
+		super (props);
+		this.state = {
+			value:''
+		};
+	}
 
-export default InputName;
+	printName(event) {
+		alert('¡Hola ' + this.state.value + '! ¿Qué vas a ordenar?');
+		console.log('¡Hola ' + this.state.value + '! ¿Qué vas a ordenar?');
+	}
+
+	render(){
+		return(
+			<div>
+			<input type="text" value={this.state.value} className="name" placeholder={'Ingresa tu nombre'} 
+			onChange={(event) => this.updateInputValue(event)}/>
+			<button className="send" onClick={(event) => this.printName(event)}>Enviar</button>
+			</div>
+			);
+	}
+
+
+	updateInputValue(event) {
+		this.setState({
+			value: event.target.value
+		});
+	};
+
+};
+
+export default GetName;
