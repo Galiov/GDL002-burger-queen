@@ -1,0 +1,6 @@
+.menu{
+	text-align: center;
+	width: auto;
+	display: flex;
+	justify-content: space-around;
+}
