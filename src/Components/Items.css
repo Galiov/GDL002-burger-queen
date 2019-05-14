@@ -1,4 +1,5 @@
 .Item {
+	text-align: center;
 	background: grey;
 	color: white;
 	padding: 12px;
@@ -7,6 +8,5 @@
 }
 
 .Items-aling{
-	text-align: center;
 	float: left;
 }
