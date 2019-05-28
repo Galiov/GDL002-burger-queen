@@ -1,0 +1,33 @@
+.App-receiver {
+	text-align: center;
+	background-color: #d21e3f;
+	background-size: cover;
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	right: 0; 
+	bottom: 0;
+	font-family: 'Baloo Bhai', cursive;
+	color: white;
+	padding: 5% 10% 0% 10%;
+}
+
+.App-logo{
+	width: 20%;
+}
+
+.burger-text{
+
+	font-size: 3rem;
+}
+
+.name{
+  		padding: 8px;
+}
+
+.send{
+	padding: 5px;
+	border-radius: 3px;
+	margin: 10px;
+	border-style: none;
+}

@@ -1,0 +1,71 @@
+{
+	"regularFood":[{
+		"category": "Hamburguesas",
+		"id": "01",
+		"price": "10",
+		"type": [
+			"Res ",
+			"Pollo ",
+			"Vegetariana"
+			],
+		"name": "Hamburguesa Simple"
+		}, {
+		"category": "Hamburguesas",
+		"id": "02",
+		"price": "15",
+		"type": [
+			"Res ",
+			"Pollo ",
+			"Vegetariana "
+			],
+		"name": "Hamburguesa Doble"		
+		}, {
+		"category": "Acompañamientos",
+		"id": "03",
+		"price": "5",
+		"name": "Papas Fritas"	
+		}, {
+		"category": "Acompañamientos",
+		"id": "04",
+		"price": "5",
+		"name": "Aros de Cebolla"	
+		}, {
+		"category": "Bebidas",
+		"id": "05",
+		"price": "5",
+		"name": "Agua 500ml"	
+		}, {
+		"category": "Bebidas",
+		"id": "06",
+		"price": "7",
+		"name": "Agua 750ml"	
+		}, {
+		"category": "Bebidas",
+		"id": "07",
+		"price": "7",
+		"name": "Gaseosa 500ml"	
+		}, {
+		"category": "Bebidas",
+		"id": "08",
+		"price": "10",
+		"name": "Gaseosa 750ml"	
+		}],
+
+	"breakfast":[{
+		"category": "Bebidas",
+		"price": "5",
+		"name": "Café Americano"	
+		}, {
+		"category": "Bebidas",
+		"price": "7",
+		"name": "Café con Leche"	
+		}, {
+		"category": "Bebidas",
+		"price": "7",
+		"name": "Jugo de Frutas Natural"	
+		}, {
+		"category": "Sandwiches",
+		"price": "10",
+		"name": "Sandwich de Jamón y Queso"	
+		}]
+}

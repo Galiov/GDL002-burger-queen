@@ -1,0 +1,16 @@
+.menu{
+	background-color: gray;
+	background-size: contain;
+	overflow: auto; 
+	top: 0; 
+	left: 0; 
+	right: 0; 
+	bottom: 0;
+}
+
+.card{
+	padding: 3rem;
+	background: white;
+	margin: 3rem;
+	width: 12rem;
+}
