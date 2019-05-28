@@ -17,8 +17,8 @@ class GetName extends Component {
 
 	render(){
 		return(
-			<div>
-			<input type="text" value={this.state.value} className="name" placeholder={'Ingresa tu nombre'} 
+			<div className="input-div">
+			<input type="text" value={this.state.value} className="name" placeholder={'Escribe tu nombre'} 
 			onChange={(event) => this.updateInputValue(event)}/>
 			<button className="send" onClick={(event) => this.printName(event)}>Enviar</button>
 			</div>
