@@ -1,20 +1,19 @@
 import React, { Component } from 'react';
 import './App.css';
-import PrincipalItems from './Components/Menu';
-import Header from './Components/Header';
-import GetName from './Components/Welcome';
-//import HamburgerType from './Components/SubMenu';
-
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Receiver from './Components1.0/Receiver';
+import Menu from './Components1.0/Menu';
 
 class App extends Component {
   render() {
-    
+  
     return (
-      <div className="App">
-          <Header/>
-          <GetName/>
-          <PrincipalItems/>
-      </div>
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/" component={Receiver}/>
+          <Route path="/menu" component={Menu}/>
+        </Switch>
+      </BrowserRouter>
     );
   };
 };
