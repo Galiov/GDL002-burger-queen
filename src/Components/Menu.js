@@ -1,6 +1,6 @@
 import React from 'react';
 import Items from './Items';
-import './Menu.css';
+
 //import HamburgerType from './SubMenu';
 
 const hamburgers = () => {
